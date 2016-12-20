@@ -1,0 +1,322 @@
+.container-fluid {
+   background-color:white; 
+
+}
+
+.logo {
+	margin-left: 70px;
+	width: 30px;
+}
+
+.navbar-header {
+
+	color:blue;
+}
+
+#pre-cont {
+  text-align:center;
+  padding: 15rem;
+  background-image: url('../img/bigimag.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70rem;
+ }
+
+
+.btn {
+	margin-right:20rem;
+	margin-top:15px;
+	width:15rem;
+	height:5rem;
+}
+
+h1 {
+    color:white;
+	font-size: 50px;
+	font-weight: 300
+}
+
+.para {
+	color:white;
+	font-size: 25px;
+}
+
+
+h3 {
+    margin-left:53rem;
+    position: absolute;
+    top:28.5rem;
+    color: blue;
+    font-size: 20px;
+    font-weight: 200
+}
+
+.play {
+    margin:0 auto;
+    position: absolute;
+    top:30rem;
+    color: blue;
+
+}
+
+
+.arrows {
+  padding-top:23em;
+  margin: 0 auto;
+
+}
+
+
+.arrows img {
+  position:relative;
+ -webkit-animation: bounce 1s ease-in-out infinite alternate ;                                                        
+}
+
+@-webkit-keyframes bounce {
+   0%   { bottom: 0px; }
+   50% { bottom: 100px; }
+   100% { bottom: 10px; }
+}
+
+                                                                              
+@-webkit-keyframes move {
+  0%   { top: 0px; }
+  50% { top: 100px; }
+  100% { top: 10px; }
+
+}
+
+
+.content h2 {
+    text-align: center;
+    padding:70px;
+    font-size: 50px;
+    font-weight: 300
+}
+
+
+.content  {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 70em;
+	
+}
+
+.content h4 {
+  font-size: 40px;
+  text-align: center; 
+  color: #1d1e21;
+  font-weight:300;
+}
+
+
+ .content .free {
+ 	margin:0 auto;
+    font-size: 20px;  
+    text-align: center;
+    color: #1d1e21;
+    font-weight:300;
+    padding-top: 15px;
+    margin-bottom: 50px;
+}
+
+
+
+.second {
+  background-image: url('../Img/buy-now.jpg');
+  background-repeat: no-repeat;
+  height:80rem; 
+  background-size: cover;
+  
+}
+
+.art {
+  font-size:25px;
+  color:red;
+  font-weight:300;
+  padding:12rem;
+  margin-left:15rem;
+}
+
+
+.purchase > p {
+  font-size:18px;
+  margin:-12rem 0rem 14rem 25rem;
+  color:#4c5058;
+  width:13em;
+}
+
+
+.activate {
+width:10em;
+margin-left:20em;
+margin-top:-15em;
+
+}
+
+.foot  {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70em;
+  
+}
+
+.foot {
+  padding-top: 40px;
+}
+
+.foot h5 {
+  font-size: 20px;
+  color: #1d1e21;
+  font-weight:300;
+  padding-bottom:10px;
+}
+
+.foot  p {
+  margin: 0 auto;
+  text-align:center;
+  font-size:16px;
+  color:#808680;
+  font-weight:300
+ 
+ }
+
+
+ hr {
+  border-top:3px solid #eaebec;
+  margin:3em 17em 0em 17em; 
+ 
+}
+
+ 
+.mobility {
+
+  text-align: center;
+  color:black;
+}
+
+
+@media only screen and ( min-width: 380px) and (max-width: 500px){
+    
+    h1 {
+	font-size: 30px;
+}
+
+
+.para {
+	font-size: 20px;
+}
+
+.play {
+   top:45rem;
+
+}
+
+h3 {
+    margin:0 auto;
+    top:50rem;
+    font-size: 20px;
+
+}
+
+.purchase > p {
+  margin-left:10rem;
+  color:#4c5058;
+  width:13em;
+}
+
+
+.art {
+  
+  padding:12rem;
+  margin-left:5rem;
+}
+
+
+.activate {
+margin-left:9em;
+margin-top:-15em;
+
+}
+
+
+}
+
+
+@media only screen and ( min-width: 500px) and (max-width: 800px){
+    
+    h1 {
+	font-size: 30px;
+}
+
+
+.para {
+	font-size: 25px;
+}
+
+
+.arrows {
+  margin-left: -3rem;
+
+}
+
+
+.play {
+   top:43rem;
+   margin-left: -4rem;
+
+}
+
+
+h3 {
+    display: none;
+
+}
+
+.btn {
+	margin-right:4rem;
+	margin-top:15px;
+	
+}
+
+
+.purchase > p {
+  margin-left:18rem;
+  color:#4c5058;
+  width:13em;
+}
+
+
+.art {
+  
+  padding:12rem;
+  margin-left:8rem;
+}
+
+
+.activate {
+  margin-left:15em;
+  margin-top:-15em;
+
+}
+
+
+
+ }
+
+
+
+@media only screen and ( min-width: 800px) and (max-width: 900px){
+
+  h3 {
+    margin-left:28rem;
+    top:28rem;
+    font-size: 20px;
+
+}
+
+
+
+}
