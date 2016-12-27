@@ -32,8 +32,8 @@
 
 h1 {
     color:white;
-	font-size: 50px;
-	font-weight: 300
+	  font-size: 50px;
+	  font-weight: 300
 }
 
 .para {
@@ -112,7 +112,7 @@ h3 {
 
 
  .content .free {
- 	margin:0 auto;
+ 	  margin:0 auto;
     font-size: 20px;  
     text-align: center;
     color: #1d1e21;
@@ -146,6 +146,20 @@ h3 {
   color:#4c5058;
   width:13em;
 }
+
+
+.bouton {
+  background-color: red;
+  border-radius:4px;
+  font-size: 20px;
+  margin-top:-15rem;
+  width:15rem;
+  height:5rem;
+  color:white;
+  margin-left:25rem;
+  border-style: none;
+}
+
 
 
 .activate {
@@ -198,34 +212,112 @@ margin-top:-15em;
 }
 
 
+@media only screen and ( min-width: 150px) and (max-width: 380px){
+    
+h1 {
+  font-size: 35px;
+  margin-left: -50px;
+  margin-top: -50px;
+}
+
+
+h3 {
+ display: none;
+
+}
+
+
+.play {
+   top:52rem;
+
+}
+
+
+.btn {
+  margin-left:-5rem;
+ 
+  
+}
+
+
+.para {
+  font-size:25px;
+  margin-left:-15px;
+}
+
+
+.arrows {
+  padding-top:14em;
+
+}
+
+.art {
+  margin-left:-3rem;
+}
+
+
+.purchase > p {
+  margin-left:3rem;
+  
+}
+
+
+.bouton {
+  margin-left:6rem;
+}
+
+
+}
+
+
+
 @media only screen and ( min-width: 380px) and (max-width: 500px){
     
-    h1 {
+h1 {
 	font-size: 30px;
 }
 
 
 .para {
-	font-size: 20px;
+	font-size:25px;
 }
+
 
 .play {
-   top:45rem;
+   top:50rem;
 
 }
 
+
+.bouton {
+  margin-left:11rem;
+}
+
+
+.btn {
+   margin-left: 2rem;
+
+}
+
+
+
+
 h3 {
+   display: none;
     margin:0 auto;
     top:50rem;
     font-size: 20px;
 
 }
 
+
+
 .purchase > p {
   margin-left:10rem;
   color:#4c5058;
   width:13em;
 }
+
 
 
 .art {
@@ -236,10 +328,11 @@ h3 {
 
 
 .activate {
-margin-left:9em;
-margin-top:-15em;
+   margin-left:9em;
+   margin-top:-15em;
 
 }
+
 
 
 }
@@ -247,7 +340,7 @@ margin-top:-15em;
 
 @media only screen and ( min-width: 500px) and (max-width: 800px){
     
-    h1 {
+ h1 {
 	font-size: 30px;
 }
 
@@ -275,11 +368,19 @@ h3 {
 
 }
 
-.btn {
-	margin-right:4rem;
-	margin-top:15px;
+.bouton {
+	margin-right:6rem;
 	
 }
+
+
+
+.btn {
+   margin-left: 5rem;
+
+}
+
+
 
 
 .purchase > p {
@@ -311,9 +412,24 @@ h3 {
 @media only screen and ( min-width: 800px) and (max-width: 900px){
 
   h3 {
+    display: none;
     margin-left:28rem;
     top:28rem;
     font-size: 20px;
+
+}
+
+
+
+.btn {
+  margin-right:8rem;
+  
+}
+
+
+.play {
+   top:40rem;
+   margin-left: -4rem;
 
 }
 
