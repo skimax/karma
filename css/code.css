@@ -1,25 +1,32 @@
 .container-fluid {
    background-color:white; 
+   position: absolute;
+   right:0;
+   left:0;
 
 }
+
 
 .logo {
 	margin-left: 70px;
 	width: 30px;
 }
 
-.navbar-header {
 
-	color:blue;
+.navbar-nav {
+   right:0;
+   left:0;
+   color:blue;
 }
+
 
 #pre-cont {
   text-align:center;
-  padding: 15rem;
   background-image: url('../img/bigimag.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 70rem;
+
  }
 
 
@@ -28,24 +35,30 @@
 	margin-top:15px;
 	width:15rem;
 	height:5rem;
+  position: relative;
+  top:17rem;
 }
 
 h1 {
     color:white;
 	  font-size: 50px;
-	  font-weight: 300
+	  font-weight: 300;
+    position: relative;
+    top:17rem;
 }
 
 .para {
 	color:white;
 	font-size: 25px;
+  position: relative;
+  top:17rem;
 }
 
 
 h3 {
-    margin-left:53rem;
+    margin-left:67rem;
     position: absolute;
-    top:28.5rem;
+    top:31rem;
     color: blue;
     font-size: 20px;
     font-weight: 200
@@ -54,14 +67,14 @@ h3 {
 .play {
     margin:0 auto;
     position: absolute;
-    top:30rem;
+    top:32rem;
     color: blue;
 
 }
 
 
 .arrows {
-  padding-top:23em;
+  padding-top:32em;
   margin: 0 auto;
 
 }
@@ -216,8 +229,8 @@ margin-top:-15em;
     
 h1 {
   font-size: 35px;
-  margin-left: -50px;
-  margin-top: -50px;
+  margin-left: -10px;
+  
 }
 
 
@@ -228,13 +241,14 @@ h3 {
 
 
 .play {
-   top:52rem;
+   top:47rem;
+   margin-left:-3rem;
 
 }
 
 
 .btn {
-  margin-left:-5rem;
+  margin-left:8rem;
  
   
 }
@@ -247,7 +261,7 @@ h3 {
 
 
 .arrows {
-  padding-top:14em;
+  padding-top:35em;
 
 }
 
@@ -284,7 +298,9 @@ h1 {
 
 
 .play {
-   top:50rem;
+   top:45rem;
+   margin-left: -4rem;
+
 
 }
 
@@ -295,11 +311,13 @@ h1 {
 
 
 .btn {
-   margin-left: 2rem;
+   margin-left: 12rem;
 
 }
 
-
+.arrows {
+  margin-left: -4rem;
+}
 
 
 h3 {
@@ -376,7 +394,7 @@ h3 {
 
 
 .btn {
-   margin-left: 5rem;
+   margin-left: 15rem;
 
 }
 
